@@ -12,7 +12,7 @@ A React component library for data-heavy interfaces. Goal: published npm package
 
 ## Current session status
 Update this line as you progress:
-`STATUS: Session 1 in progress — scaffold done, Tailwind v4 wired up, Button component next`
+`STATUS: Session 2 complete — Input, Select, Checkbox, Toggle, Badge, Tooltip, Tag built with cva + full stories`
 
 ## Project structure (target)
 src/
@@ -58,7 +58,7 @@ index.css           ← @import "tailwindcss" at top, then CSS vars
 
 ## Known issues / decisions made
 - Tailwind v4 used (not v3) — init command doesn't exist, no tailwind.config.js
-- @tailwindcss/vite plugin required in vite.config.ts for utility classes to work
+- @tailwindcss/vite plugin required in both vite.config.ts (dev) and vite.lib.config.ts (lib build)
 - postcss.config.js should not exist — conflicts with v4 Vite plugin approach
 
 ## How to run

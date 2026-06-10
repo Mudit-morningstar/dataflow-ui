@@ -12,6 +12,7 @@ type Story = StoryObj<typeof Button>
 
 export const Primary: Story = { args: { children: 'Save changes', variant: 'primary' } }
 export const Secondary: Story = { args: { children: 'Cancel', variant: 'secondary' } }
+export const Ghost: Story = { args: { children: 'Learn more', variant: 'ghost' } }
 export const Danger: Story = { args: { children: 'Delete', variant: 'danger' } }
 export const Loading: Story = { args: { children: 'Saving...', loading: true } }
 export const Disabled: Story = { args: { children: 'Not available', disabled: true } }
