@@ -36,3 +36,14 @@ export type { DateRangePickerProps, DateRange } from './components/FilterBar/Dat
 
 export { DataTable } from './components/DataTable/DataTable'
 export type { DataTableProps, Column, RowAction } from './components/DataTable/DataTable'
+
+export { LineChart } from './components/charts/LineChart/LineChart'
+export type { LineChartProps, LineSeries } from './components/charts/LineChart/LineChart'
+
+export { BarChart } from './components/charts/BarChart/BarChart'
+export type { BarChartProps, BarSeries } from './components/charts/BarChart/BarChart'
+
+export { PieChart } from './components/charts/PieChart/PieChart'
+export type { PieChartProps, PieSlice } from './components/charts/PieChart/PieChart'
+
+export { CHART_COLORS } from './components/charts/chartTokens'

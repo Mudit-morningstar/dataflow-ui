@@ -46,7 +46,7 @@ function getPageNumbers(current: number, total: number): (number | '...')[] {
   return [1, '...', current - 1, current, current + 1, '...', total]
 }
 
-function getRowKey<T>(
+function getRowKey<T extends Record<string, unknown>>(
   row: T,
   rowKey: DataTableProps<T>['rowKey'],
   index: number
@@ -416,7 +416,7 @@ export function DataTable<T extends Record<string, unknown>>({
               {columns.map((col) => {
                 const isFilterable = headerFilters && col.filterable
                 const isSortable = col.sortable
-                const sortActive = (sort?.key === col.key) ?? false
+                const sortActive = sort?.key === col.key
                 const sortDir = sortActive ? sort!.dir : null
 
                 if (isFilterable) {

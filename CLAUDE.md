@@ -12,7 +12,7 @@ A React component library for data-heavy interfaces. Goal: published npm package
 
 ## Current session status
 Update this line as you progress:
-`STATUS: Session 4 complete — DataTable with sort, pagination, row actions, loading/empty states + FilterBar composed story`
+`STATUS: Session 5 complete — LineChart, BarChart, PieChart wrappers over Recharts with shared color tokens + Storybook stories`
 
 ## Project structure (target)
 src/
