@@ -2,7 +2,7 @@
 
 A React component library for data-heavy interfaces — tables, filters, charts, and core UI primitives. Built with TypeScript, Tailwind v4, and Recharts.
 
-[**Live Storybook →**](https://dataflow-ui.vercel.app) *(deploying in session 6)*
+[**Live Storybook →**](https://dataflow-ui.vercel.app)
 
 ---
 
