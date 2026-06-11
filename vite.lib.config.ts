@@ -7,6 +7,7 @@ import { resolve } from 'path'
 export default defineConfig({
   plugins: [react(), tailwindcss(), dts({ include: ['src'], insertTypesEntry: true })],
   build: {
+    copyPublicDir: false,
     lib: {
       entry: resolve(__dirname, 'src/index.ts'),
       name: 'DataflowUI',
