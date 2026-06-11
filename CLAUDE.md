@@ -12,7 +12,7 @@ A React component library for data-heavy interfaces. Goal: published npm package
 
 ## Current session status
 Update this line as you progress:
-`STATUS: Session 2 complete — Input, Select, Checkbox, Toggle, Badge, Tooltip, Tag built with cva + full stories`
+`STATUS: Session 4 complete — DataTable with sort, pagination, row actions, loading/empty states + FilterBar composed story`
 
 ## Project structure (target)
 src/
@@ -43,8 +43,8 @@ index.css           ← @import "tailwindcss" at top, then CSS vars
 - All components export their Props interface
 
 ## Build sessions
-1. Scaffold — Vite, TS, Tailwind v4, Storybook, npm package config, Button ← current
-2. Core UI — Input, Select, Checkbox, Toggle, Badge, Tooltip, Tag
+1. Scaffold — Vite, TS, Tailwind v4, Storybook, npm package config, Button 
+2. Core UI — Input, Select, Checkbox, Toggle, Badge, Tooltip, Tag ← current
 3. Filter bar — multi-select, date range, search, composable
 4. Data table — sort, filter, pagination, row actions (hero component)
 5. Chart wrappers — Line, bar, pie over Recharts, consistent tokens

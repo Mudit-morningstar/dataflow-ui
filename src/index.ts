@@ -21,3 +21,18 @@ export type { TooltipProps } from './components/Tooltip/Tooltip'
 
 export { Tag } from './components/Tag/Tag'
 export type { TagProps } from './components/Tag/Tag'
+
+export { FilterBar } from './components/FilterBar/FilterBar'
+export type { FilterBarProps } from './components/FilterBar/FilterBar'
+
+export { SearchInput } from './components/FilterBar/SearchInput'
+export type { SearchInputProps } from './components/FilterBar/SearchInput'
+
+export { MultiSelect } from './components/FilterBar/MultiSelect'
+export type { MultiSelectProps, MultiSelectOption } from './components/FilterBar/MultiSelect'
+
+export { DateRangePicker } from './components/FilterBar/DateRangePicker'
+export type { DateRangePickerProps, DateRange } from './components/FilterBar/DateRangePicker'
+
+export { DataTable } from './components/DataTable/DataTable'
+export type { DataTableProps, Column, RowAction } from './components/DataTable/DataTable'
