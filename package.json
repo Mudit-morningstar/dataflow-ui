@@ -1,6 +1,6 @@
 {
   "name": "dataflow-ui",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A React component library for data-heavy interfaces — tables, filters, charts, and UI primitives",
   "keywords": ["react", "components", "datatable", "charts", "typescript", "tailwind", "ui-library", "recharts"],
   "license": "MIT",
@@ -12,6 +12,18 @@
   "main": "dist/index.cjs.js",
   "module": "dist/index.esm.js",
   "types": "dist/types/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/types/index.d.ts",
+      "import": "./dist/index.esm.js",
+      "require": "./dist/index.cjs.js"
+    },
+    "./styles.css": "./dist/index.css",
+    "./dist/index.css": "./dist/index.css"
+  },
+  "sideEffects": [
+    "dist/index.css"
+  ],
   "files": [
     "dist"
   ],

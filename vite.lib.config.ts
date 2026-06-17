@@ -12,6 +12,7 @@ export default defineConfig({
       name: 'DataflowUI',
       formats: ['es', 'cjs'],
       fileName: (format) => `index.${format === 'es' ? 'esm' : format}.js`,
+      cssFileName: 'index',
     },
     rollupOptions: {
       external: ['react', 'react-dom', 'recharts'],
